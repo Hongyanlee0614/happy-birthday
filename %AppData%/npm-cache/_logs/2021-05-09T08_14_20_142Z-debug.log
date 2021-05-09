@@ -1,0 +1,38 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'start'
+1 verbose cli ]
+2 info using npm@6.14.12
+3 info using node@v14.16.1
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle happy-birthday@1.0.0~prestart: happy-birthday@1.0.0
+6 info lifecycle happy-birthday@1.0.0~start: happy-birthday@1.0.0
+7 verbose lifecycle happy-birthday@1.0.0~start: unsafe-perm in lifecycle true
+8 verbose lifecycle happy-birthday@1.0.0~start: PATH: C:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;D:\Visual Studio Python\happy-birthday-master\node_modules\.bin;C:\Program Files\Common Files\Oracle\Java\javapath;D:\Oracle\dbhomeXE\bin;C:\ProgramData\Oracle\Java\javapath;C:\Users\USER;C:\xampp\php;C:\composer;C:\Users\USER\AppData\Roaming\npm;C:\src\flutter\bin;C:\Program Files\Git\cmd;D:\;C:\Program Files\nodejs\;C:\Program Files\PuTTY\;C:\Windows\System32;C:\Users\USER\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\USER\AppData\Local\hyper\app-3.0.2\resources\bin;C:\src\flutter\bin;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Users\USER\Scripts;D:\Heroku\bin;D:\IntelliJ IDEA Community Edition 2020.2.1\bin;;C:\Users\USER\AppData\Roaming\Python\Python38\Scripts;C:\Users\USER\AppData\Roaming\npm;
+9 verbose lifecycle happy-birthday@1.0.0~start: CWD: D:\Visual Studio Python\happy-birthday-master
+10 silly lifecycle happy-birthday@1.0.0~start: Args: [ '/d /s /c', 'run-script-os' ]
+11 silly lifecycle happy-birthday@1.0.0~start: Returned: code: 1  signal: null
+12 info lifecycle happy-birthday@1.0.0~start: Failed to exec start script
+13 verbose stack Error: happy-birthday@1.0.0 start: `run-script-os`
+13 verbose stack Exit status 1
+13 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\index.js:332:16)
+13 verbose stack     at EventEmitter.emit (events.js:315:20)
+13 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\lib\spawn.js:55:14)
+13 verbose stack     at ChildProcess.emit (events.js:315:20)
+13 verbose stack     at maybeClose (internal/child_process.js:1048:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+14 verbose pkgid happy-birthday@1.0.0
+15 verbose cwd D:\Visual Studio Python\happy-birthday-master
+16 verbose Windows_NT 10.0.18363
+17 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "start"
+18 verbose node v14.16.1
+19 verbose npm  v6.14.12
+20 error code ELIFECYCLE
+21 error errno 1
+22 error happy-birthday@1.0.0 start: `run-script-os`
+22 error Exit status 1
+23 error Failed at the happy-birthday@1.0.0 start script.
+23 error This is probably not a problem with npm. There is likely additional logging output above.
+24 verbose exit [ 1, true ]
